@@ -251,7 +251,9 @@ class BaseGateway(ABC):
         """
         pass
 
-    @abstractmethod
+    # @abstractmethod
+    # Cannot find this abstract method in original vnpy repo -
+    # https://github.com/vnpy/vnpy/blob/master/vnpy/trader/gateway.py
     def query_order(self, req: QueryRequest) -> None:
         """
         query an existing order.
